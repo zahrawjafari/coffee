@@ -1,24 +1,431 @@
-.v2{
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FEFCF7;
+    color: #333D4B;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 120px;
+}
+
+.v5 {
+    display: block;
+    margin-left: 0;
+    width: 236px;
+}
+
+.v6 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+.v6 span {
+    cursor: pointer;
+}
+.v2 {
     height: 450px;
+    width: calc(100% - 240px);
+
     background-image: url(image-hero-coffeepress.jpg);
+    background-size: cover;
+    background-position: center;
+
     border-radius: 10px;
-    padding: 100px;
-background-size: cover;
-background-position: center;
-padding: 80px;
-font-size: 29px;
-color: white;
-}
-.v1{
-    max-width: 500px;
-}
-.v3{
+
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+    padding: 80px;
+
+    font-size: 40px;
     color: white;
-    font-size: 15px;
 }
-.v4{padding: 15px 45px;
-border: none;
-border-radius: 8px;
-font-size: 16px;
-background-color: rgb(6, 109, 135);
+
+.v1 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.v3 {
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.v4 {
+    padding: 20px 45px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    background-color: #0E8784;
+    color: white;
+
+    cursor: pointer;
+}
+
+.v7 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    unicode-bidi: isolate;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    padding: 0 40px;
+}
+
+.v8 {
+    display: inline-block;
+    text-align: center;
+
+    margin: 5px;
+    width: 250px;
+
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+.v9 {
+    display: inline-block;
+    text-align: center;
+
+    margin: 5px;
+    width: 250px;
+}
+
+.v10 {
+    display: inline-block;
+    text-align: center;
+
+    margin: 5px;
+    width: 250px;
+}
+
+.v11 {
+    display: inline-block;
+    text-align: center;
+
+    margin: 5px;
+    width: 250px;
+}
+
+.v7 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.v7 h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.v7 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.v12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #2C343E;
+
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+    border-radius: 10px;
+
+    padding: 50px 40px;
+
+    color: white;
+
+    height: 650px;
+
+    position: relative;
+}
+
+.v13 {
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 40px;
+
+    margin-top: 0;
+}
+
+.v14 {
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+.v15 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    padding-left: 0;
+    padding-right: 0;
+
+    position: relative;
+
+    margin-top: -300px;
+    margin-bottom: 30px;
+
+    gap: 30px;
+}
+
+.v16 {
+    display: inline-block;
+
+    background-color: #0E8784;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 55px;
+
+    height: 400px;
+    width: 250px;
+
+    border-radius: 10px;
+
+    color: aliceblue;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+.v17 {
+    display: inline-block;
+
+    background-color: #0E8784;
+
+    align-items: center;
+
+    height: 400px;
+    width: 250px;
+
+    border-radius: 10px;
+
+    color: aliceblue;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+.v18 {
+    display: inline-block;
+
+    margin-bottom: 0;
+
+    align-items: center;
+
+    background-color: #0E8784;
+
+    height: 400px;
+    width: 250px;
+
+    border-radius: 10px;
+
+    color: aliceblue;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+.v16 img,
+.v17 img,
+.v18 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.v16 h2,
+.v17 h2,
+.v18 h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.v16 p,
+.v17 p,
+.v18 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media (max-width: 1200px) {
+
+    header {
+        padding: 30px 40px;
+    }
+
+    .v2 {
+        width: calc(100% - 80px);
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .v12 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .v7 {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .v5 {
+        width: 180px;
+    }
+
+    .v6 {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .v2 {
+        width: calc(100% - 40px);
+        height: auto;
+        min-height: 450px;
+
+        margin-left: 20px;
+        margin-right: 20px;
+
+        padding: 40px 25px;
+
+        font-size: 30px;
+    }
+
+    .v3 {
+        font-size: 16px;
+    }
+
+    .v3 br {
+        display: none;
+    }
+
+    .v7 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .v8,
+    .v9,
+    .v10,
+    .v11 {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .v12 {
+        height: auto;
+        min-height: 650px;
+
+        margin-left: 20px;
+        margin-right: 20px;
+
+        padding: 40px 20px;
+    }
+
+    .v13 {
+        font-size: 30px;
+    }
+
+    .v14 br {
+        display: none;
+    }
+
+    .v15 {
+        margin-top: -250px;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .v16,
+    .v17,
+    .v18 {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        min-height: 350px;
+
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .v6 {
+        justify-content: center;
+        font-size: 11px;
+    }
+
+    .v2 {
+        min-height: 400px;
+        padding: 30px 20px;
+    }
+    .v1 {
+        font-size: 32px;
+    }
+    .v3 {
+        font-size: 14px;
+    }
+    .v4 {
+        padding: 15px 25px;
+    }
+    .v13 {
+        font-size: 26px;
+    }
+    .v15 {
+        margin-top: -200px;
+    }
+
 }
